@@ -1,0 +1,91 @@
+<style>
+    :host {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 14px;
+        color: #333;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 8px 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .spacer {
+        flex: 1;
+    }
+
+    .toolbar {
+        font-family: "DM Serif Display", serif;
+        top: 0;
+        left: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        position: fixed;
+        border-bottom: 2px solid;
+        font-size: 30px;
+        width: 100%;
+        justify-content: space-between;
+
+
+    }
+
+    .toolbar a {
+        text-decoration: none;
+    }
+
+    .space {
+
+        padding: 0px 16px;
+    }
+
+    a:not([class]) {
+        text-decoration-skip-ink: auto;
+    }
+
+    a {
+        color: rgb(51, 51, 51);
+        font-weight: 600;
+        transition: color 0.2s ease 0s;
+    }
+
+    .XXntf {
+        display: initial;
+        font-size: 18px;
+        font-family: "Archivo", sans-serif;
+
+    }
+
+    .XXntf a {
+        margin: 0px 15px;
+        text-decoration: none;
+    }
+</style>
+
+<div class="toolbar">
+    <div class="space">
+        <a href="https://www.frontendpractice.com/">Frontend Practice</a>
+    </div>
+    <div class="spacer"></div>
+    <div class="XXntf"><a href="/">Home</a>
+        <a href="/">Project</a>
+        <a href="/">FAQ</a>
+        <a href="/login/login.component.html">Contact</a>
+    </div>
+</div>
+
+<a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a>

@@ -1,0 +1,19 @@
+<div class="row centeritem">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                Report
+            </div>
+            <div class="card-body">
+                <div class="">
+                    <div class="" *ngFor="let value of valuelist ; index as BUD_REP_SEQ ">
+                        <a class="btn btn-outline-info left-text orgborder" [routerLink]=[value.BUD_REP_PATH] target="_blank">
+                        {{value.BUD_REP_NAME}} 
+                        </a>
+                       <br>
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
