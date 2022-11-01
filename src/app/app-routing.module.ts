@@ -2,6 +2,7 @@ import { ReportComponent } from './report/report/report.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HowcanComponent } from './howcan/howcan.component';
+import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
 
 const routes: Routes = [
   {
@@ -21,7 +22,9 @@ const routes: Routes = [
     path: 'report',
     component: ReportComponent
   }
-  
+  ,{path: 'responsive',
+  component: ReponsivePageComponent
+}
 
 ];
 
