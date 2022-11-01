@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FrontendComponent } from './frontend/frontend.component';
 import { HowcanComponent } from './howcan/howcan.component';
 import { RouterModule } from '@angular/router';
+import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
 
 
 
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     FrontendComponent,
     HowcanComponent,
+    ReponsivePageComponent,
     
     
   ],
