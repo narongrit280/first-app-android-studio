@@ -1,12 +1,10 @@
 
 .block{  
-    padding: 5px;
-    left: 0px;
-    right: 0px;
+    
     position: relative;
   /*  border: 1px solid #000;*/
     background: black;
-    margin-left: 20px;
+ 
 }
 .space{
     flex: 1;
@@ -14,4 +12,12 @@
 .bg{
   background: black;
   position: relative;
+  
+}.row{
+  --bs-gutter-x:0;
+  justify-items: center;
+  display: flex;
+}
+.item{
+  width: 120px;
 }
