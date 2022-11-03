@@ -8,6 +8,7 @@ import { FrontendComponent } from './frontend/frontend.component';
 import { HowcanComponent } from './howcan/howcan.component';
 import { RouterModule } from '@angular/router';
 import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
+import { DevExtremeModule } from 'devextreme-angular';
 
 
 
@@ -20,13 +21,15 @@ import { ReponsivePageComponent } from './reponsive-page/reponsive-page.componen
     ReponsivePageComponent,
     
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReportModule,
-    RouterModule
+    RouterModule,
+    DevExtremeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
