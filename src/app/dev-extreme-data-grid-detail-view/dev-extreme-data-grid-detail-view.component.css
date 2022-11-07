@@ -1,0 +1,6 @@
+.dx-field-value, .dx-field-value-static{
+    float: left;
+}
+.leftitem{
+    text-align: end;
+}

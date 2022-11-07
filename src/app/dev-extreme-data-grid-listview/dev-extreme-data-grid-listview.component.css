@@ -1,0 +1,99 @@
+.bg{
+    background: green;
+}
+::ng-deep #data-grid-demo {
+    min-height: 700px;
+ 
+  }
+  
+  ::ng-deep #gridDeleteSelected {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    margin: 1px;
+    top: 0;
+  }
+  
+  ::ng-deep #gridDeleteSelected .dx-button-text {
+    line-height: 0;
+  }
+  #gridContainer {
+    max-height: 800px;
+  }
+  ::ng-deep #bgb {
+    min-height: 700px;
+    background: #000;
+    color: aliceblue;
+  }
+  ::ng-deep#dx-datagrid-borders .dx-datagrid-headers .dx-datagrid-table {
+
+    background: black;
+} 
+::ng-deep #dx-col-1 {
+  
+  background: green;
+  color: aliceblue;
+  
+}
+::ng-deep #dx-col-2 {
+  
+  background: green;
+  color: aliceblue;
+ text-align: center;
+}
+::ng-deep #dx-col-3 {
+  
+  background: green;
+  color: aliceblue;
+  text-align: center;
+}
+::ng-deep #dx-col-4 {
+  
+  background: green;
+  color: aliceblue;
+}
+::ng-deep #dx-col-5 {
+  
+  background: green;
+  color: aliceblue;
+}
+.dx-datagrid-text-content{
+  align-items: center;
+}
+td{
+  text-align: center;
+}
+::ng-deep #leftseach{
+  padding-left: 100%;
+}
+ื::ng-deep #gridContainer{
+  align-items: center;
+}
+.centeritem{
+ align-items: center;
+ position: absolute;
+ display: flex;
+justify-content: center;
+
+  
+}.leftitem{
+  padding-left: 20%;
+}
+.dx-toolbar-after {
+  left: 0;
+}
+.iconsize{
+  width: 15px;
+  height: 15px;
+  align-items: center;
+
+}
+.iconwhite{
+  width: 15px;
+  height: 15px;
+  align-items: center;
+color: rgb(255, 255, 255);
+}
+::ng-deep #left{
+  width: 10%;
+}

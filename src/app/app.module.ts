@@ -8,10 +8,13 @@ import { FrontendComponent } from './frontend/frontend.component';
 import { HowcanComponent } from './howcan/howcan.component';
 import { RouterModule } from '@angular/router';
 import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
-import { DevExtremeModule } from 'devextreme-angular';
-
-
-
+import {
+  DevExtremeModule,
+  DxDataGridModule,
+  DxButtonModule,
+} from 'devextreme-angular';
+import { DevExtremeDataGridListviewComponent } from './dev-extreme-data-grid-listview/dev-extreme-data-grid-listview.component';
+import { DevExtremeDataGridDetailViewComponent } from './dev-extreme-data-grid-detail-view/dev-extreme-data-grid-detail-view.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +22,8 @@ import { DevExtremeModule } from 'devextreme-angular';
     FrontendComponent,
     HowcanComponent,
     ReponsivePageComponent,
-    
-    
-    
+    DevExtremeDataGridListviewComponent,
+    DevExtremeDataGridDetailViewComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,9 +31,11 @@ import { DevExtremeModule } from 'devextreme-angular';
     HttpClientModule,
     ReportModule,
     RouterModule,
-    DevExtremeModule
+    DevExtremeModule,
+    DxButtonModule,
+    DxDataGridModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
